@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build and Run andy-guard.sln",
+			"type": "shell",
+			"command": "dotnet build andy-guard.sln && dotnet run --project src/AndyGuard/AndyGuard.csproj",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		}
+	]
+}
